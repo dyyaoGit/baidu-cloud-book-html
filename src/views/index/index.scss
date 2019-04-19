@@ -3,5 +3,20 @@
 .container {
   padding: px-to-rem(18);
 
+  .content {
+    .row-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 8px;
+      padding-right: 0;
+      border-left: 2px solid #000;
+
+      .title {
+        font-size: 18px;
+        color: #333;
+      }
+    }
+  }
 
 }
